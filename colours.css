@@ -4,26 +4,26 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #00ff00;
-	background-color: #000000;
+	color: #536482;
+	background-color: #f2f2f2;
 }
 
 h1 {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 h2 {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 h3 {
-	border-bottom-color: #00ff00;
-	color: #00ff00;
+	border-bottom-color: #2c3e50;
+	color: #2c3e50;
 }
 
 hr {
-	border-color: #00ff00;
-	border-top-color: #00ff00;
+	border-color: #2c3e50;
+	border-top-color: #2c3e50;
 }
 
 /*
@@ -31,37 +31,37 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #00ff00; }
-a:hover { color: #ffffff; }
+a { color: #3498db; }
+a:hover { color: #2980b9; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
-	color: #000000;
+	color: #ffffff;
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	color: #ffffff;
+	color: #f2f2f2;
 }
 
 /* Notification mark read link */
 .dropdown-extended a.mark_read {
-	background-color: #000000;
+	background-color: #f2f2f2;
 }
 
 /* Post body links */
 .postlink {
-	border-bottom-color: #00ff00;
-	color: #00ff00;
+	border-bottom-color: #3498db;
+	color: #3498db;
 }
 
 .postlink:visited {
-	border-bottom-color: #ffffff;
-	color: #ffffff;
+	border-bottom-color: #2980b9;
+	color: #2980b9;
 }
 
 .postlink:hover {
-	background-color: #333333;
-	color: #00ff00;
+	background-color: #ecf0f1;
+	color: #2980b9;
 }
 
 .signature a, .signature a:hover {
@@ -75,78 +75,74 @@ a:hover { color: #ffffff; }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #00ff00;
+	color: #3498db;
 }
 
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: #0d0d0d;
-	border-color: #00ff00;
+	background-color: #ffffff;
+	border-color: #ecf0f1;
 }
 
 .headerbar {
-	color: #000000;
+	color: #ffffff;
 }
 
 .headerbar, .forumbg {
-	background-color: #00ff00;
-	background-image: -webkit-linear-gradient(top, #33ff33 0%, #00ff00 100%);
-	background-image: linear-gradient(to bottom, #33ff33 0%,#00ff00 100%);
-	background-repeat: repeat-x;
+	background-color: #3498db;
+	background-image: linear-gradient(to right, #3498db, #2980b9);
 }
 
 .forabg {
-	background-color: #00cc00;
-	background-image: -webkit-linear-gradient(top, #00ff00 0%, #00cc00 100%);
-	background-image: linear-gradient(to bottom, #00ff00 0%,#00cc00 100%);
-	background-repeat: repeat-x;
+	background-color: #2980b9;
+	background-image: linear-gradient(to right, #2980b9, #3498db);
 }
 
 .navbar {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .panel {
-	background-color: #0d0d0d;
-	color: #00ff00;
+	background-color: #ffffff;
+	color: #536482;
 }
 
 .post:target .content {
-	color: #00ff00;
+	color: #536482;
 }
 
 .post h3 a.first-unread,
 .post:target h3 a {
-	color: #00ff00;
+	color: #536482;
 }
 
 .bg1 {
-	background-color: #1a1a1a;
+	background-color: #f9f9f9;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
-	background-color: #1a1a1a;
+	background-color: #f9f9f9;
 }
 
 .bg2 {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .bg3 {
-	background-color: #000000;
+	background-color: #f2f2f2;
 }
 
 .ucprowbg {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .fieldsbg {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .site_logo {
@@ -157,76 +153,76 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 ----------------------------------------*/
 
 ul.navlinks {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 /* Table styles
 ----------------------------------------*/
 table.table1 thead th {
-	color: #000000;
+	color: #ffffff;
 }
 
 table.table1 tbody tr {
-	border-color: #00ff00;
+	border-color: #ecf0f1;
 }
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
-	background-color: #333333;
-	color: #00ff00;
+	background-color: #f2f2f2;
+	color: #536482;
 }
 
 table.table1 td {
-	color: #00ff00;
+	color: #536482;
 }
 
 table.table1 tbody td {
-	border-top-color: #0d0d0d;
+	border-top-color: #ffffff;
 }
 
 table.table1 tbody th {
-	border-bottom-color: #00ff00;
-	color: #00ff00;
-	background-color: #0d0d0d;
+	border-bottom-color: #2c3e50;
+	color: #2c3e50;
+	background-color: #ffffff;
 }
 
 table.info tbody th {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 /* Misc layout styles
 ---------------------------------------- */
 dl.details dt {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 dl.details dd {
-	color: #00ff00;
+	color: #536482;
 }
 
 .sep {
-	color: #00ff00;
+	color: #3498db;
 }
 
 /* Icon styles
 ---------------------------------------- */
 .icon.icon-blue, a:hover .icon.icon-blue {
-	color: #00ff00;
+	color: #3498db;
 }
 
 .icon.icon-green, a:hover .icon.icon-green {
-	color: #00ff00;
+	color: #2ecc71;
 }
 
 .icon.icon-red, a:hover .icon.icon-red {
-	color: #ffffff;
+	color: #e74c3c;
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange {
-	color: #ffffff;
+	color: #f39c12;
 }
 
 .icon.icon-bluegray, a:hover .icon.icon-bluegray {
-	color: #00ff00;
+	color: #536482;
 }
 
 .icon.icon-gray, a:hover .icon.icon-gray {
@@ -238,79 +234,79 @@ dl.details dd {
 }
 
 .icon.icon-black, a:hover .icon.icon-black {
-	color: #ffffff;
+	color: #2c3e50;
 }
 
 .alert_close .icon:before {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 /* Jumpbox */
 .jumpbox .dropdown li {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 .jumpbox-cat-link {
-	background-color: #00cc00;
-	border-top-color: #00ff00;
-	color: #000000;
+	background-color: #2980b9;
+	border-top-color: #ecf0f1;
+	color: #ffffff;
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #00ff00;
-	border-top-color: #00ff00;
-	color: #000000;
+	background-color: #3498db;
+	border-top-color: #ecf0f1;
+	color: #ffffff;
 }
 
 .jumpbox-forum-link {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #0d0d0d transparent;
+	border-color: #ffffff transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .jumpbox-sub-link:hover {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 /* Miscellaneous styles
 ---------------------------------------- */
 
 .copyright {
-	color: #cccccc;
+	color: #666666;
 }
 
 .error {
-	color: #ffffff;
+	color: #e74c3c;
 }
 
 .reported {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 li.reported:hover {
-	background-color: #555555 !important;
+	background-color: #ecf0f1 !important;
 }
 .sticky, .announce {
 	/* you can add a background for stickies and announcements*/
 }
 
 div.rules {
-	background-color: #333333;
-	color: #ffffff;
+	background-color: #f2f2f2;
+	color: #e74c3c;
 }
 
 p.post-notice {
-	background-color: #333333;
+	background-color: #f2f2f2;
 	background-image: none;
 }
 
@@ -320,75 +316,73 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: #0d0d0d; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #1a1a1a 0%, #0d0d0d 100%);
-	background-image: linear-gradient(to bottom, #1a1a1a 0%,#0d0d0d 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#0d0d0d',GradientType=0 ); /* IE6-9 */
+	background-color: #ffffff; /* Old browsers */ /* FF3.6+ */
+	background-image: none;
 }
 
 ul.topiclist li {
-	color: #00ff00;
+	color: #536482;
 }
 
 ul.topiclist dd {
-	border-left-color: #000000;
+	border-left-color: #f2f2f2;
 }
 
 .rtl ul.topiclist dd {
-	border-right-color: #000000;
+	border-right-color: #f2f2f2;
 	border-left-color: transparent;
 }
 
 li.row {
-	border-top-color: #000000;
-	border-bottom-color: #00ff00;
+	border-top-color: #f2f2f2;
+	border-bottom-color: #ecf0f1;
 }
 
 li.row strong {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 li.row:hover {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 li.row:hover dd {
-	border-left-color: #00ff00;
+	border-left-color: #ecf0f1;
 }
 
 .rtl li.row:hover dd {
-	border-right-color: #00ff00;
+	border-right-color: #ecf0f1;
 	border-left-color: transparent;
 }
 
 li.header dt, li.header dd {
-	color: #000000;
+	color: #ffffff;
 }
 
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-	color: #00ff00;
+	color: #536482;
 }
 
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #00ff00;
+	color: #536482;
 }
 
 .content h2, .panel h2 {
-	color: #00ff00;
-	border-bottom-color: #00ff00;
+	color: #2c3e50;
+	border-bottom-color: #ecf0f1;
 }
 
 dl.faq dt {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 .posthilit {
-	background-color: #333333;
-	color: #00ff00;
+	background-color: #f2f2f2;
+	color: #2c3e50;
 }
 
 .announce, .unreadpost {
@@ -397,110 +391,110 @@ dl.faq dt {
 
 /* Post signature */
 .signature {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 /* Post noticies */
 .notice {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 /* BB Code styles
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #333333;
-	border-color:#00ff00;
+	background-color: #f2f2f2;
+	border-color:#ecf0f1;
 }
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color: #555555;
+	background-color: #ffffff;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 /* Code block */
 .codebox {
-	background-color: #000000;
-	border-color: #00ff00;
+	background-color: #ffffff;
+	border-color: #ecf0f1;
 }
 
 .codebox p {
-	border-bottom-color: #00ff00;
+	border-bottom-color: #ecf0f1;
 }
 
 .codebox code {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 /* Attachments
 ----------------------------------------*/
 .attachbox {
-	background-color: #000000;
-	border-color: #00ff00;
+	background-color: #ffffff;
+	border-color: #ecf0f1;
 }
 
 .pm-message .attachbox {
-	background-color: #0d0d0d;
+	background-color: #f2f2f2;
 }
 
 .attachbox dd {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 .attachbox p {
-	color: #cccccc;
+	color: #666666;
 }
 
 .attachbox p.stats {
-	color: #cccccc;
+	color: #666666;
 }
 
 .attach-image img {
-	border-color: #00ff00;
+	border-color: #ecf0f1;
 }
 
 /* Inline image thumbnails */
 
 dl.file dd {
-	color: #cccccc;
+	color: #666666;
 }
 
 dl.thumbnail img {
-	border-color: #00ff00;
-	background-color: #000000;
+	border-color: #ecf0f1;
+	background-color: #ffffff;
 }
 
 dl.thumbnail dd {
-	color: #cccccc;
+	color: #666666;
 }
 
 dl.thumbnail dt a:hover {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 dl.thumbnail dt a:hover img {
-	border-color: #ffffff;
+	border-color: #2c3e50;
 }
 
 /* Post poll styles
 ----------------------------------------*/
 
 fieldset.polls dl {
-	border-top-color: #00ff00;
-	color: #cccccc;
+	border-top-color: #ecf0f1;
+	color: #666666;
 }
 
 fieldset.polls dl.voted {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 fieldset.polls dd div {
-	color: #000000;
+	color: #ffffff;
 }
 
 .rtl .pollbar1, .rtl .pollbar2, .rtl .pollbar3, .rtl .pollbar4, .rtl .pollbar5 {
@@ -508,68 +502,68 @@ fieldset.polls dd div {
 }
 
 .pollbar1 {
-	background-color: #00ff00;
-	border-bottom-color: #00cc00;
-	border-right-color: #00cc00;
+	background-color: #3498db;
+	border-bottom-color: #2980b9;
+	border-right-color: #2980b9;
 }
 
 .rtl .pollbar1 {
-	border-left-color: #00cc00;
+	border-left-color: #2980b9;
 }
 
 .pollbar2 {
-	background-color: #ffffff;
-	border-bottom-color: #cccccc;
-	border-right-color: #cccccc;
+	background-color: #2ecc71;
+	border-bottom-color: #27ae60;
+	border-right-color: #27ae60;
 }
 
 .rtl .pollbar2 {
-	border-left-color: #cccccc;
+	border-left-color: #27ae60;
 }
 
 .pollbar3 {
-	background-color: #00ff00;
-	border-bottom-color: #00cc00;
-	border-right-color: #00cc00;
+	background-color: #e74c3c;
+	border-bottom-color: #c0392b;
+	border-right-color: #c0392b;
 }
 
 .rtl .pollbar3 {
-	border-left-color: #00cc00;
+	border-left-color: #c0392b;
 }
 
 .pollbar4 {
-	background-color: #ffffff;
-	border-bottom-color: #cccccc;
-	border-right-color: #cccccc;
+	background-color: #f1c40f;
+	border-bottom-color: #f39c12;
+	border-right-color: #f39c12;
 }
 
 .rtl .pollbar4 {
-	border-left-color: #cccccc;
+	border-left-color: #f39c12;
 }
 
 .pollbar5 {
-	background-color: #00ff00;
-	border-bottom-color: #00cc00;
-	border-right-color: #00cc00;
+	background-color: #9b59b6;
+	border-bottom-color: #8e44ad;
+	border-right-color: #8e44ad;
 }
 
 .rtl .pollbar5 {
-	border-left-color: #00cc00;
+	border-left-color: #8e44ad;
 }
 
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-	color: #cccccc;
-	border-color: #000000;
+	color: #666666;
+	border-color: #f2f2f2;
 }
 
 .pm .postprofile {
-	border-color: #333333;
+	border-color: #ecf0f1;
 }
 
 .postprofile strong {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 .online {
@@ -577,7 +571,7 @@ fieldset.polls dd div {
 }
 
 dd.profile-warnings {
-	color: #ffffff;
+	color: #e74c3c;
 }
 
 /*
@@ -585,26 +579,24 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #00ff00;
-	background-color: #0d0d0d; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #1a1a1a 0%, #0d0d0d 100%);
-	background-image: linear-gradient(to bottom, #1a1a1a 0%,#0d0d0d 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#0d0d0d',GradientType=0 ); /* IE6-9 */
-	color: #00ff00;
+	border: none;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, #3498db, #2980b9);
+	color: #ffffff;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	transition: all 0.3s ease-in-out;
 }
 
 .button:hover,
 .button:focus {
-	border-color: #ffffff;
-	background-color: #1a1a1a; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #0d0d0d 0%, #1a1a1a 100%);
-	background-image: linear-gradient(to bottom, #0d0d0d 0%,#1a1a1a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#1a1a1a',GradientType=0 ); /* IE6-9 */
+	background-image: linear-gradient(to right, #2980b9, #3498db);
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .button .icon,
 .button-secondary {
-	color: #cccccc;
+	color: #ffffff;
 }
 
 .button-secondary:focus,
@@ -616,41 +608,42 @@ Colours and backgrounds for buttons.css
 
 .button-search:hover,
 .button-search-end:hover {
-	border-color: #00ff00;
+	background-image: linear-gradient(to right, #2980b9, #3498db);
 }
 
-.caret	{ border-color: #cccccc; }
-.caret	{ border-color: #00ff00; }
+.caret	{ border-color: #ffffff; }
 
-.contact-icons a	{ border-color: #333333; }
-.contact-icons a:hover	{ background-color: #333333; }
+.contact-icons a	{ border-color: #ecf0f1; }
+.contact-icons a:hover	{ background-color: #f2f2f2; }
 
 /* Pagination
 ---------------------------------------- */
 
 .pagination li a {
-	background: #0d0d0d;
+	background: #ffffff;
 	filter: none;
-	border-color: #00ff00;
+	border: 1px solid #ecf0f1;
+	border-radius: 5px;
 	box-shadow: none;
 	-webkit-box-shadow: none;
-	color: #00ff00;
+	color: #536482;
 }
 
 .pagination li.ellipsis span {
 	background: transparent;
-	color: #00ff00;
+	color: #536482;
 }
 
 .pagination li.active span {
-	background: #333333;
-	border-color: #00ff00;
-	color: #00ff00;
+	background: #3498db;
+	border-color: #3498db;
+	color: #ffffff;
+	border-radius: 5px;
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #333333;
-	border-color: #ffffff;
+	background: #2980b9;
+	border-color: #2980b9;
 	filter: none;
 	color: #ffffff;
 	text-shadow: none;
@@ -662,16 +655,16 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-	border-color: #00ff00;
+	border-color: #ecf0f1;
 }
 
 .search-header {
-	box-shadow: 0 0 10px #000000;
+	box-shadow: 0 0 10px #ecf0f1;
 }
 
 .search-results li:hover,
 .search-results li.active {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 /* Icon images
@@ -755,79 +748,77 @@ Colours and backgrounds for cp.css
 ----------------------------------------*/
 
 .panel-container h3, .panel-container hr, .cp-menu hr {
-	border-color: #00ff00;
+	border-color: #ecf0f1;
 }
 
 .panel-container .panel li.row {
-	border-bottom-color: #00ff00;
-	border-top-color: #333333;
+	border-bottom-color: #ecf0f1;
+	border-top-color: #ffffff;
 }
 
 ul.cplist {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
-	color: #000000;
+	color: #ffffff;
 }
 
 .panel-container table.table1 thead th {
-	color: #000000;
-	border-bottom-color: #00ff00;
+	color: #ffffff;
+	border-bottom-color: #ecf0f1;
 }
 
 .cp-main .pm-message {
-	border-color: #00ff00;
-	background-color: #000000;
+	border-color: #ecf0f1;
+	background-color: #ffffff;
 }
 
 /* CP tabbed menu
 ----------------------------------------*/
 .tabs .tab > a {
-	background: #0d0d0d;
-	color: #00ff00;
+	background: #ffffff;
+	color: #536482;
 }
 
 .tabs .tab > a:hover {
-	background: #333333;
-	color: #ffffff;
+	background: #f2f2f2;
+	color: #2c3e50;
 }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #1a1a1a; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #333333 0%, #1a1a1a 100%);
-	background-image: linear-gradient(to bottom, #333333 0%,#1a1a1a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#1a1a1a',GradientType=0 ); /* IE6-9 */
-	border-color: #00ff00;
-	box-shadow: 0 1px 1px #4a4a4a inset;
-	color: #00ff00;
+	background-color: #f2f2f2; /* Old browsers */ /* FF3.6+ */
+	background-image: none;
+	border-color: #ecf0f1;
+	box-shadow: none;
+	color: #2c3e50;
 }
 
 .tabs .activetab > a:hover {
-	color: #ffffff;
+	color: #2c3e50;
 }
 
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 .minitabs .tab > a {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
-	background-color: #333333;
-	color: #00ff00;
+	background-color: #f2f2f2;
+	color: #2c3e50;
 }
 
 /* Responsive tabs
 ----------------------------------------*/
 .responsive-tab .responsive-tab-link:before {
-	border-color: #00ff00;
+	border-color: #536482;
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #ffffff;
+	border-color: #2c3e50;
 }
 
 /* UCP navigation menu
@@ -835,81 +826,74 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 .navigation a {
-	color: #00ff00;
-	background: #0d0d0d; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #1a1a1a 50%, #0d0d0d 100%);
-	background: linear-gradient(to right, #1a1a1a 50%,#0d0d0d 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#0d0d0d',GradientType=1 ); /* IE6-9 */
+	color: #536482;
+	background: #ffffff; /* Old browsers */ /* FF3.6+ */
+	background-image: none;
 }
 
 .rtl .navigation a {
-	background: #1a1a1a; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #0d0d0d 50%, #1a1a1a 100%);
-	background: linear-gradient(to right, #0d0d0d 50%,#1a1a1a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#1a1a1a',GradientType=1 ); /* IE6-9 */
+	background: #ffffff;
 }
 
 .navigation a:hover {
-	background: #333333;
-	color: #ffffff;
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background: #f2f2f2;
+	color: #2c3e50;
 }
 
 .navigation .active-subsection a {
-	background: #333333;
-	color: #ffffff;
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background: #f2f2f2;
+	color: #2c3e50;
 }
 
 .navigation .active-subsection a:hover {
-	color: #ffffff;
+	color: #2c3e50;
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
 {
 	#navigation a, .rtl #navigation a {
-		background: #1a1a1a;
+		background: #ffffff;
 	}
 }
 
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 .panel-container .panel {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 .cp-main .pm {
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 /* Friends list */
 .cp-mini {
-	background-color: #0d0d0d;
+	background-color: #f2f2f2;
 }
 
 dl.mini dt {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 /* PM Styles
 ----------------------------------------*/
 /* PM Message history */
 .current {
-	color: #00ff00 !important;
+	color: #2c3e50 !important;
 }
 
 /* PM marking colours */
 .pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
-	border-left-color: #ffffff;
-	border-right-color: #ffffff;
+	border-left-color: #e74c3c;
+	border-right-color: #e74c3c;
 }
 
 .pmlist li.pm_marked_colour, .pm_marked_colour {
-	border-color: #ffffff;
+	border-color: #f39c12;
 }
 
 .pmlist li.pm_replied_colour, .pm_replied_colour {
@@ -917,21 +901,21 @@ dl.mini dt {
 }
 
 .pmlist li.pm_friend_colour, .pm_friend_colour {
-	border-color: #00ff00;
+	border-color: #3498db;
 }
 
 .pmlist li.pm_foe_colour, .pm_foe_colour {
-	border-color: #ffffff;
+	border-color: #2c3e50;
 }
 
 /* Avatar gallery */
 .gallery label {
-	background: #000000;
-	border-color: #00ff00;
+	background: #ffffff;
+	border-color: #ecf0f1;
 }
 
 .gallery label:hover {
-	background-color: #333333;
+	background-color: #f2f2f2;
 }
 
 /*
@@ -942,13 +926,13 @@ Colours and backgrounds for forms.css
 /* General form styles
 ----------------------------------------*/
 select {
-	border-color: #00ff00;
-	background-color: #0d0d0d;
-	color: #00ff00;
+	border-color: #ecf0f1;
+	background-color: #ffffff;
+	color: #536482;
 }
 
 label {
-	color: #00ff00;
+	color: #2c3e50;
 }
 
 option.disabled-option {
@@ -958,7 +942,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #00ff00;
+	color: #536482;
 }
 
 fieldset.fields1 {
@@ -967,7 +951,7 @@ fieldset.fields1 {
 
 /* Hover effects */
 fieldset dl:hover dt label {
-	color: #ffffff;
+	color: #2c3e50;
 }
 
 fieldset.fields2 dl:hover dt label {
@@ -976,14 +960,14 @@ fieldset.fields2 dl:hover dt label {
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-	background-color: #0d0d0d;
+	background-color: #ffffff;
 }
 
 /* Posting page styles
 ----------------------------------------*/
 
 .message-box textarea {
-	color: #00ff00;
+	color: #536482;
 }
 
 .message-box textarea.drag-n-drop {
@@ -991,31 +975,32 @@ fieldset.quick-login input.inputbox {
 }
 
 .message-box textarea.drag-n-drop-highlight {
-	outline-color: rgba(0, 255, 0, 0.5);
+	outline-color: rgba(52, 152, 219, 0.5);
 }
 
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-	background-color: #000000;
-	border-color: #00ff00;
-	color: #00ff00;
+	background-color: #ffffff;
+	border: 1px solid #ecf0f1;
+	color: #536482;
+	border-radius: 5px;
 }
 
 .inputbox:-moz-placeholder {
-	color: #00ff00;
+	color: #536482;
 }
 
 .inputbox::-webkit-input-placeholder {
-	color: #00ff00;
+	color: #536482;
 }
 
 .inputbox:hover {
-	border-color: #ffffff;
+	border-color: #3498db;
 }
 
 .inputbox:focus {
-	border-color: #ffffff;
+	border-color: #3498db;
 }
 
 .inputbox:focus:-moz-placeholder {
@@ -1031,45 +1016,41 @@ fieldset.quick-login input.inputbox {
 ---------------------------------------- */
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
-	color: #000000;
-	background-color: #00ff00; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #33ff33 0%, #00ff00 100%);
-	background-image: linear-gradient(to bottom, #33ff33 0%,#00ff00 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ff33', endColorstr='#00ff00',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	background-image: linear-gradient(to right, #3498db, #2980b9);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	transition: all 0.3s ease-in-out;
 }
 
 a.button1, input.button1 {
-	border-color: #00ff00;
 }
 
 input.button3 {
-	background-image: none;
 }
 
 /* Alternative button */
 a.button2, input.button2, input.button3 {
-	border-color: #00ff00;
 }
 
 /* <a> button in the style of the form buttons */
 a.button1, a.button2 {
-	color: #000000;
+	color: #ffffff;
 }
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #ffffff;
-	color: #000000;
-	background-color: #ffffff; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #00ff00 0%, #ffffff 100%);
-	background-image: linear-gradient(to bottom, #00ff00 0%,#ffffff 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff00', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	background-image: linear-gradient(to right, #2980b9, #3498db);
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	color: #ffffff;
 }
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #ffffff;
-	color: #000000;
+	background-image: linear-gradient(to right, #2980b9, #3498db);
+	color: #ffffff;
 }
 
 input.disabled {
@@ -1079,8 +1060,8 @@ input.disabled {
 /* jQuery popups
 ---------------------------------------- */
 .phpbb_alert {
-	background-color: #000000;
-	border-color: #00ff00;
+	background-color: #ffffff;
+	border-color: #ecf0f1;
 }
 .darken {
 	background-color: #000000;
@@ -1092,17 +1073,17 @@ input.disabled {
 }
 
 .dropdown-extended ul li {
-	border-top-color: #00ff00;
+	border-top-color: #ecf0f1;
 }
 
 .dropdown-extended ul li:hover {
-	background-color: #333333;
-	color: #00ff00;
+	background-color: #f2f2f2;
+	color: #2c3e50;
 }
 
 .dropdown-extended .header, .dropdown-extended .footer {
-	border-color: #00ff00;
-	color: #00ff00;
+	border-color: #ecf0f1;
+	color: #2c3e50;
 }
 
 .dropdown-extended .footer {
@@ -1111,27 +1092,25 @@ input.disabled {
 }
 
 .dropdown-extended .header {
-	background-color: #0d0d0d; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #1a1a1a 0%, #0d0d0d 100%);
-	background-image: linear-gradient(to bottom, #1a1a1a 0%,#0d0d0d 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#0d0d0d',GradientType=0 ); /* IE6-9 */
+	background-color: #ffffff;
+	background-image: none;
 }
 
 .dropdown .pointer {
-	border-color: #00ff00 transparent;
+	border-color: #ecf0f1 transparent;
 }
 
 .dropdown .pointer-inner {
-	border-color: #000000 transparent;
+	border-color: #ffffff transparent;
 }
 
 .dropdown-extended .pointer-inner {
-	border-color: #0d0d0d transparent;
+	border-color: #ffffff transparent;
 }
 
 .dropdown .dropdown-contents {
-	background: #000000;
-	border-color: #00ff00;
+	background: #ffffff;
+	border-color: #ecf0f1;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -1140,25 +1119,25 @@ input.disabled {
 }
 
 .dropdown li, .dropdown li li {
-	border-color: #333333;
+	border-color: #ecf0f1;
 }
 
 .dropdown li.separator {
-	border-color: #333333;
+	border-color: #ecf0f1;
 }
 
 /* Notifications
 ---------------------------------------- */
 
 .notification_list p.notification-time {
-	color: #cccccc;
+	color: #666666;
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
-	color: #ffffff;
+	color: #e74c3c;
 }
 
 .badge {
-	background-color: #00ff00;
-	color: #000000;
+	background-color: #3498db;
+	color: #ffffff;
 }
